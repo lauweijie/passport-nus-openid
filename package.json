@@ -1,6 +1,6 @@
 {
   "name": "passport-nus-openid",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "NUS OpenID authentication strategy for Passport.",
   "keywords": ["passport", "nus", "auth", "authn", "authentication", "identity"],
   "repository": {
@@ -19,7 +19,7 @@
     "type": "MIT",
     "url": "http://www.opensource.org/licenses/MIT" 
   } ],
-  "main": "./lib/passport-nus",
+  "main": "./lib/passport-nus-openid",
   "dependencies": {
     "pkginfo": "0.2.x",
     "passport-openid": "0.3.x"
