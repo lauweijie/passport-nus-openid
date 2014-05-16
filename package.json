@@ -1,6 +1,6 @@
 {
   "name": "passport-nus-openid",
-  "version": "0.2.0",
+  "version": "0.0.2",
   "description": "NUS OpenID authentication strategy for Passport.",
   "keywords": ["passport", "nus", "auth", "authn", "authentication", "identity"],
   "repository": {
