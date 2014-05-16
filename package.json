@@ -1,0 +1,28 @@
+{
+  "name": "passport-nus-openid",
+  "version": "0.2.0",
+  "description": "NUS OpenID authentication strategy for Passport.",
+  "keywords": ["passport", "nus", "auth", "authn", "authentication", "identity"],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lauweijie/passport-nus-openid.git"
+  },
+  "bugs": {
+    "url": "http://github.com/lauweijie/passport-nus-openid/issues"
+  },
+  "author": {
+    "name": "Jonathan Lau",
+    "email": "dev@jon.sg",
+    "url": "http://jon.sg/"
+  },
+  "licenses": [ {
+    "type": "MIT",
+    "url": "http://www.opensource.org/licenses/MIT" 
+  } ],
+  "main": "./lib/passport-nus",
+  "dependencies": {
+    "pkginfo": "0.2.x",
+    "passport-openid": "0.3.x"
+  },
+  "engines": { "node": ">= 0.6.0" }
+}
