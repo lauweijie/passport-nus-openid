@@ -37,14 +37,14 @@ Additionally, options can be supplied to specify a return URL and realm.
 
 #### Authenticate Requests
 
-Use `passport.authenticate()`, specifying the `'NUS'` strategy, to
+Use `passport.authenticate()`, specifying the `'nus-openid'` strategy, to
 authenticate requests.
 
 For example, as route middleware in an [Express](http://expressjs.com/)
 application:
 
     app.get('/auth/nus',
-      passport.authenticate('nus'));
+      passport.authenticate('nus-openid'));
 
     app.get('/auth/nus/return', 
       passport.authenticate('nus', { failureRedirect: '/login' }),
