@@ -1,5 +1,7 @@
 # Passport-NUS-OpenID
 
+[![NPM version](https://badge.fury.io/js/passport-nus-openid.svg)](http://badge.fury.io/js/passport-nus-openid)
+
 [Passport](http://passportjs.org/) strategy for authenticating with [NUS](http://www.nus.edu.sg/)
 using OpenID 2.0.
 
